@@ -20,8 +20,6 @@ document.querySelectorAll(".menu a").forEach(enlace => {
     btnMenu.classList.remove("activo");
   });
 });
-
-//Accordion functionality 
 const titulos = document.querySelectorAll(".accordion .titulo");
 titulos.forEach(titulo => {
   titulo.addEventListener("click", () => {
